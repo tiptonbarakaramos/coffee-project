@@ -95,19 +95,3 @@ searchBox.addEventListener('keyup', searchCoffees);
 
 var submitButton = document.querySelector('#submit');
 submitButton.addEventListener('click', updateCoffees);
-
-
-//target the #search-coffee-name input to confirm name with array
-var checkName = document.getElementById('search-coffee-name');
-
-// //addEventListener to button
-// changeButton.addEventListener('click', changeColor, false);
-
-
-//another example of updating values with event listeners
-var newInstructor = document.getElementById('add');
-
-var conName = function(event){
-    var instructor = document.getElementById('5');
-    instructor.innerText = newInstructor.value;
-};

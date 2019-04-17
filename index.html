@@ -7,59 +7,59 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
-    <body class="bgImg">
-        <header>
-            <h1 class="text-center col-12 mx-auto p-5">Coffee!</h1>
-        </header>
-        <hr>
-        <div class="container justify-content-center">
-            <div class="row">
-                <div class="col-6 coffee">
-                    <h3 class="text-center select-color">Our Selection</h3>
-                    <div id="coffees" class="row mx-auto p-3 selection-color"></div>
-                </div>
-                <div class="col-6">
-                    <div class="row-6">
-                        <form class="col mx-auto p-3 ">
-                            <h3>Chose your coffee.</h3>
-                            <label for="roast-selection" class=roasebutton" ></label>
-                            <h5>Roast</h5>
-                            <select class="custom-select" id="roast-selection" aria-label="Example select with button addon">
-                                <option selected>all</option>
-                                <option value="1">light</option>
-                                <option value="2">medium</option>
-                                <option value="3">dark</option>
-                            </select>
-                            <br>
-                            <h5>Coffee Name</h5>
-                            <div class="input-group input-group-sm mb-3">
-                                <input id="searchBox" type="text"placeholder="Search" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                            </div>
-                            <button id="submit" type="submit" class="btn btn-primary btn-lg btn-block my-2 p-0">submit</button>
-                        </form>
+<body class="bgImg">
+<header>
+    <h1 class="text-center col-12 mx-auto p-5">Coffee!</h1>
+</header>
+<hr>
+<div class="container justify-content-center">
+    <div class="row">
+        <div class="col-6 coffee">
+            <h3 class="text-center select-color">Our Selection</h3>
+            <div id="coffees" class="row mx-auto p-3 selection-color"></div>
+        </div>
+        <div class="col-6">
+            <div class="row-6">
+                <form class="col mx-auto p-3 ">
+                    <h3>Chose your coffee.</h3>
+                    <label for="roast-selection" class=roastbutton" ></label>
+                    <h5>Roast</h5>
+                    <select class="custom-select" id="roast-selection" >
+                        <option selected>all</option>
+                        <option>light</option>
+                        <option>medium</option>
+                        <option>dark</option>
+                    </select>
+                    <br>
+                    <h5>Coffee Name</h5>
+                    <div class="input-group input-group-sm mb-3">
+                        <input id="searchBox" type="text"placeholder="Search" class="form-control" >
                     </div>
-                    <hr>
-                    <div class="row-6">
-                        <form class="col mx-auto p-3">
-                            <h3>Add your own coffee!</h3>
-                            <label for="input-roast"></label>
-                            <h5>Roast</h5>
-                            <select class="custom-select" id="input-roast" aria-label="Example select with button addon">
-                                <option selected>light</option>
-                                <option value="1">medium</option>
-                                <option value="2">dark</option>
-                            </select>
-                            <h5>Name</h5>
-                            <div class="input-group input-group-sm mb-3">
-                                <input id="input-name" type="text" placeholder="Coffee Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                            </div>
-                            <button id="input-submit"type="submit" class="btn btn-primary btn-lg btn-block my-2 p-0">submit</button>
-                        </form>
+                    <button id="submit" type="submit" class="btn btn-primary btn-lg btn-block my-2 p-0">submit</button>
+                </form>
+            </div>
+            <hr>
+            <div class="row-6">
+                <form class="col mx-auto p-3">
+                    <h3>Add your own coffee!</h3>
+                    <label for="input-roast"></label>
+                    <h5>Roast</h5>
+                    <select class="custom-select" id="input-roast" aria-label="Example select with button addon">
+                        <option selected>light</option>
+                        <option>medium</option>
+                        <option>dark</option>
+                    </select>
+                    <h5>Name</h5>
+                    <div class="input-group input-group-sm mb-3">
+                        <input id="input-name" type="text" placeholder="Coffee Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                     </div>
-                </div>
-            </div><!--closing row-->
-        </div><!--closing container-->
+                    <button id="input-submit"type="submit" class="btn btn-primary btn-lg btn-block my-2 p-0">submit</button>
+                </form>
+            </div>
+        </div>
+    </div><!--closing row-->
+</div><!--closing container-->
 
-        <script src="main.js"></script>
-    </body>
+<script src="main.js"></script>
+</body>
 </html>
