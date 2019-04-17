@@ -1,10 +1,5 @@
-
 .bgImg{
-    background-image: url("img/bgcImg.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: opacity 0.5;
-    background: filter alpha(opacity =50);
+    background-color: #1e3932;
 }
 
 .select-color{
@@ -14,5 +9,29 @@
 .selection-color {
     color: lightblue;
 }
-
-
+#coffeeLogoPic {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: 10px;
+}
+#coffeeLogo {
+    padding-top: 10px;
+}
+#topLine {
+    margin-top: 0;
+}
+.whiteText {
+    color: white;
+}
+.underline {
+    text-decoration: underline;
+}
+#coffees {
+    background-color: #1B1B1B;
+}
+.listColor {
+    background: #1B1B1B !important;
+    border-color: grey !important;
+    color: white !important;
+}

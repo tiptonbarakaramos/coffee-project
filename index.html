@@ -9,51 +9,51 @@
 </head>
 <body class="bgImg">
 <header>
-    <h1 class="text-center col-12 mx-auto p-5">Coffee!</h1>
+    <h1 class="text-center col-12 mx-auto whiteText" id="coffeeLogo">Coffee!<img src="img/output-onlinepngtools.png" alt="" id="coffeeLogoPic"></h1>
 </header>
-<hr>
+<hr id="topLine">
 <div class="container justify-content-center">
     <div class="row">
         <div class="col-6 coffee">
-            <h3 class="text-center select-color">Our Selection</h3>
+            <h3 class="text-center select-color whiteText underline" id="ourSelect">Our Selection</h3>
             <div id="coffees" class="row mx-auto p-3 selection-color"></div>
         </div>
         <div class="col-6">
             <div class="row-6">
                 <form class="col mx-auto p-3 ">
-                    <h3>Chose your coffee.</h3>
+                    <h3 class="whiteText">Choose your coffee!</h3>
                     <label for="roast-selection" class=roastbutton" ></label>
-                    <h5>Roast</h5>
-                    <select class="custom-select" id="roast-selection" >
+                    <h5 class="whiteText">Roast</h5>
+                    <select class="custom-select listColor" id="roast-selection" >
                         <option selected>all</option>
                         <option>light</option>
                         <option>medium</option>
                         <option>dark</option>
                     </select>
                     <br>
-                    <h5>Coffee Name</h5>
+                    <h5 class="whiteText">Coffee Name</h5>
                     <div class="input-group input-group-sm mb-3">
-                        <input id="searchBox" type="text"placeholder="Search" class="form-control" >
+                        <input id="searchBox" type="text" placeholder="Search" class="form-control listColor" >
+                    <button id="submit" type="button" class="btn btn-primary btn-lg btn-block my-2 p-0">submit</button>
                     </div>
-                    <button id="submit" type="submit" class="btn btn-primary btn-lg btn-block my-2 p-0">submit</button>
                 </form>
             </div>
             <hr>
             <div class="row-6">
                 <form class="col mx-auto p-3">
-                    <h3>Add your own coffee!</h3>
+                    <h3 class="whiteText">Add your own coffee!</h3>
                     <label for="input-roast"></label>
-                    <h5>Roast</h5>
-                    <select class="custom-select" id="input-roast" aria-label="Example select with button addon">
+                    <h5 class="whiteText">Roast</h5>
+                    <select class="custom-select listColor" id="input-roast" aria-label="Example select with button addon">
                         <option selected>light</option>
                         <option>medium</option>
                         <option>dark</option>
                     </select>
-                    <h5>Name</h5>
+                    <h5 class="whiteText">Name</h5>
                     <div class="input-group input-group-sm mb-3">
-                        <input id="input-name" type="text" placeholder="Coffee Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        <input id="input-name" type="text" placeholder="Coffee Name" class="form-control listColor" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    <button id="input-submit" type="button" class="btn btn-primary btn-lg btn-block my-2 p-0">submit</button>
                     </div>
-                    <button id="input-submit"type="submit" class="btn btn-primary btn-lg btn-block my-2 p-0">submit</button>
                 </form>
             </div>
         </div>
