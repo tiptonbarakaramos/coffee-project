@@ -39,8 +39,8 @@ function addCoffees (input) {
 // PUTS COFFEE DATA INTO TABLE WITHIN JS //
 function renderCoffee(coffee) {
 
-    var html = '<div class="coffee d-block col-4 mx-auto p-auto">';
-    html += '<h1>' + coffee.name + '</h1>';
+    var html = '<div class="coffee d-block col-6 mx-auto p-auto">';
+    html += '<h3>' + coffee.name + '</h3>';
     html += '<p>' + coffee.roast + '</p>';
     html += '</div>';
 
@@ -95,3 +95,19 @@ searchBox.addEventListener('keyup', searchCoffees);
 
 var submitButton = document.querySelector('#submit');
 submitButton.addEventListener('click', updateCoffees);
+
+
+//target the #search-coffee-name input to confirm name with array
+var checkName = document.getElementById('search-coffee-name');
+
+// //addEventListener to button
+// changeButton.addEventListener('click', changeColor, false);
+
+
+//another example of updating values with event listeners
+var newInstructor = document.getElementById('add');
+
+var conName = function(event){
+    var instructor = document.getElementById('5');
+    instructor.innerText = newInstructor.value;
+};
